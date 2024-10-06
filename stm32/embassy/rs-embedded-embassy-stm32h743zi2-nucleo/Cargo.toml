@@ -1,0 +1,6 @@
+[package]
+name = "rs-embedded-embassy-stm32h743zi2-nucleo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
