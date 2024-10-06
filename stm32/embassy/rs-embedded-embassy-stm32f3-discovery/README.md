@@ -20,9 +20,9 @@ This project serves as an introduction to embedded programming with Rust on the 
 ```bash
 git clone https://github.com/vagotec/rs-embedded
 cd stm32/rs-embedded-embassy-stm32f3-discovery
-# Build the project for a specific binary (e.g., blinky1):
-cargo build --bin blinky1 --release
-# Run the project for a specific binary (e.g., blinky1):
-cargo run --bin blinky1 --release
+# Build the project for a specific binary (e.g., blinky):
+cargo build --bin blinky --release
+# Run the project for a specific binary (e.g., blinky):
+cargo run --bin blinky --release
 # Clean the build artifacts:
 cargo clean
