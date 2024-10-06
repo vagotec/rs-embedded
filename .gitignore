@@ -1,0 +1,28 @@
+# Ignore build artifacts
+/target/
+/**/target/
+
+# Ignore Cargo.lock if the project is a library
+# (this keeps the dependencies flexible, use if necessary)
+# Cargo.lock
+
+# Ignore the output of `cargo clean`
+/**/debug/
+/**/release/
+
+# Ignore editor/IDE settings
+/.vscode/
+/.idea/
+/*.swp
+
+# Ignore binaries and firmware images
+/*.bin
+/*.hex
+/*.elf
+
+# Ignore backups
+*.bak
+*~
+
+# Ignore Rust Analyzer and other tools
+/.rust-analyzer.json
